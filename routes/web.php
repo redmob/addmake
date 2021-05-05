@@ -38,4 +38,7 @@ Route::post('getmodal',[CheckValuationController::class,'getmodal'])->name('getm
 Route::post('getbody',[CheckValuationController::class,'getbody'])->name('getbody');
 Route::post('getyearvalue',[CheckValuationController::class,'getyearvalue'])->name('getyearvalue');
 Route::get('countcp',[CheckValuationController::class,'countcp'])->name('countcp');
+Route::get('aldar',function(){
+	return "Siddhsh";
+});
 
